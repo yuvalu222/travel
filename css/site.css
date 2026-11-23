@@ -359,3 +359,5 @@ a { color: inherit; text-decoration-thickness: 1px; text-underline-offset: 3px; 
 }
 .globe-box canvas:focus:not(:focus-visible) { outline: none; }
 .area.noimg { grid-template-columns: 1fr; max-width: 760px; }
+.hero-grid > * { min-width: 0; }
+@media (max-width: 900px) { .hero-grid { grid-template-columns: minmax(0, 1fr); } .search { max-width: none; } }
