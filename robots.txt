@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://yuvalu222.github.io/travel/sitemap.xml
