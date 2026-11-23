@@ -358,3 +358,4 @@ a { color: inherit; text-decoration-thickness: 1px; text-underline-offset: 3px; 
   .globe-zoom { top: 2%; }
 }
 .globe-box canvas:focus:not(:focus-visible) { outline: none; }
+.area.noimg { grid-template-columns: 1fr; max-width: 760px; }
